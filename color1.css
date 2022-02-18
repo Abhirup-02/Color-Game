@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=fire");
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("/HTML+CSS+JS/hackoverflow/lucas-benjamin-j4xZjuuj3ws-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto;
+  
+}
+#wel{
+  color: rgb(0, 0, 0);
+  margin: 5% 0%;
+  padding: 30px;
+  font-size: 2.9rem;
+  font-family: "Sofia", sans-serif;
+  text-shadow: 15px 5px 8px #ffffff;
+  
+}
+#name{
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 1rem;
+  border-color: transparent;
+  font-size: 20px;
+  box-shadow: rgba(255, 255, 255 , 0.8) 12px 15px 12px ;
+  margin-left: 36.5%;
+  margin-right: 36.5%;
+  
+}
+#start{
+  width:200px;
+  margin-left:41%;
+  margin-right:41%;
+  margin-top: 35px;
+  font-size: 1.6rem;
+  font-family: "Audiowide", sans-serif;
+  color:#d0e612fd;
+  border: none;
+  display: inline-block;
+  background: transparent ;
+  transform:scale(1) ;
+  text-align: justify;
+
+  
+}
+#start:hover {
+  stroke-opacity: 0.6;
+  cursor: pointer;
+  transition:0.35s ease-out;
+  transform:scale(1.07) ;
+}
+
+
+#logo{
+  color : rgba(97, 211, 31, 0.842);
+  font-size:60px ;
+  text-align: center;
+  margin: 8% 46%;
+  /* border: solid  rgb(78, 72, 72) 1px; */
+  /* width: 100px; */
+  border-radius:0.8rem 1.2rem ;
+  box-shadow:#ffffffdc 40px 32px 69px;
+  
+}
