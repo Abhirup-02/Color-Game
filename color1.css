@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url("/HTML+CSS+JS/hackoverflow/lucas-benjamin-j4xZjuuj3ws-unsplash.jpg");
+  background-image: url("./lucas-benjamin-j4xZjuuj3ws-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
