@@ -27,8 +27,8 @@
   color : black;
   border-radius: 2rem;
   box-shadow : rgba(0,0,0,0.35) 0px 5px 15px;
-  width : 400px;
-  margin-left: 480px;
+  width : 28vw;
+  margin-left: 36vw;
   
 }
 #TWO{
@@ -47,7 +47,18 @@
   cursor: pointer;
 }
 #new{
-  cursor: wait;
+  cursor: pointer;
+}
+#new:hover{
+  cursor: pointer;
+  transition:0.2s ease-in;
+  transform:scale(1) ;
+  color: black;
+}
+#new:active{
+  transform:scale(0.9);
+  transition : 0.3s ease-out;
+  color:yellowgreen;
 }
 
 #new1{
@@ -61,19 +72,52 @@
   margin-left:10px;
   margin-right: 10px;
   color: #79482cde;
+  /* opacity : 0; */
 }
-.easy{
+#easy{
   margin-right: 25px;
   color :#3D24FF ;
+  font-size:20px;
+  font-weight: bold;
+  border: none;
+  display: inline-block;
+  background: transparent ;
 }
-.hard{
+#easy:hover{
+  cursor: pointer;
+  transition:0.2s ease-in;
+  transform:scale(1) ;
+  color: black;
+}
+#easy:active{
+  transform:scale(0.9);
+  transition : 0.3s ease-out;
+  color:yellowgreen;
+}
+#hard{
   color:#51ff00;
-
+  font-size:20px;
+  font-weight: bold;
+  border: none;
+  display: inline-block;
+  background: transparent ;
 }
+#hard:hover{
+  cursor: pointer;
+  transition:0.2s ease-in;
+  transform:scale(1) ;
+  color: black;
+}
+#hard:active{
+  transform:scale(0.9);
+  transition : 0.3s ease-out;
+  color:yellowgreen;
+} 
 
 #THREE{
   background-color:#000000da;
   height: 28.4rem  ;
+  width: 85.35rem;
   display:grid;
   justify-content: center;
   align-content: center;
@@ -86,13 +130,15 @@
   
 }
 .box{
-  background-color:white;
+  /* background-color:white; */
   height:120px;
   width:120px;
   border-radius: 12px;
   box-shadow : rgba(99, 11, 11, 0.8) 2px 5px 15px;
   transform:scale(1) ;
-  
+  opacity :0; 
+  transition: opacity 0.37s ease-in-out;
+  animation-fill-mode:forwards;
 }
 .box:hover {
   
@@ -101,6 +147,11 @@
   transition:0.2s ease-in;
   transform:scale(1.15) ;
   
+}
+.box:active{
+  background-color:#582caa;
+  transform:scale(1);
+  transition:0.28s  ;
 }
 
 
