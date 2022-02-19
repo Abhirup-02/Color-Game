@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
-@import url("https://fonts.googleapis.com/css?family=Sofia&effect=fire");
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins&family=Roboto:wght@100&display=swap');
 *{
   margin : 0;
@@ -17,11 +15,17 @@ body{
   justify-content: center;
   align-items: center;
   grid-template-columns: auto;
-  
+  animation-name: slide;
+  animation-duration: 3s;
+}
+@keyframes slide {
+  0%{bottom:0vh;}
+  25%{bottom:0vh;}
+  100%{bottom:100vh;}
 }
 #wel{
   color: rgb(255, 255, 255);
-  margin: 5% 0%;
+  margin: 4% 9%;
   padding: 30px;
   font-size: 2.9rem;
   font-family: 'Montserrat', sans-serif;
@@ -36,14 +40,15 @@ body{
   border-color: transparent;
   font-size: 20px;
   box-shadow: rgba(255, 255, 255 , 0.8) 10px 11px 11px ;
-  margin-left: 36.5%;
-  margin-right: 36.5%;
+  margin-left: 38.7vw;
+  margin-left: 38.7vw;
+  
   
 }
 #start{
   width:200px;
-  margin-left:41%;
-  margin-right:41%;
+  margin-left:42vw;
+  margin-right :42vw;;
   margin-top: 35px;
   font-size: 1.6rem;
   font-family: "Audiowide", sans-serif;
@@ -71,8 +76,12 @@ body{
 #logo{
   color : rgb(63, 136, 126);
   font-size:60px ;
-  text-align: center;
-  margin: 8% 46%;
+  justify-content: center;
+  margin:12vh 46vw;
   
   
+  
+}
+.hii{
+  margin-bottom: 0%;
 }

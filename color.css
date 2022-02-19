@@ -149,7 +149,7 @@
   
 }
 .box:active{
-  background-color:#582caa;
+  box-shadow: rgb(16, 63, 192) 5px 9px 9px;
   transform:scale(1);
   transition:0.28s  ;
 }
