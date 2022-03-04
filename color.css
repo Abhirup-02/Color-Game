@@ -4,21 +4,58 @@
   box-sizing :border-box;
 }
 #ONE{
-  background: radial-gradient(circle, rgb(92, 53, 53), rgb(31, 40, 160), rgb(190, 211, 190));
+  background-image: radial-gradient(circle, rgb(92, 53, 53), rgb(31, 40, 160), rgb(190, 211, 190));
+  background-size: 250%;
   text-align: center;
   font-family:'roboto';
   font-weight:bold;
-  border-radius: 20px 2px;
+  border-radius: 20px 5px;
   margin: 3px 3px 0px;
+  cursor:default;
+  animation: circular-gradient 15s infinite alternate;
+}
+@keyframes circular-gradient {
+ 0%{
+   background-position: 0%;
+ }
+ 50%{
+   background-position:100% 50%;
+ }
+ 100%{
+   background-position:0%;
+ }
 }
 #d1{
-  color:white;
-  font-size: 2.72rem;
+  color: white;
+  font-size: 2.7rem;
   padding-top: 1px;
+  background: linear-gradient(35deg, #e6df6b, #d63939);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
+
 #d2{
   color:white;
   font-size: 2.56rem;
+  background: conic-gradient(
+    #CA4246 5.666%, 
+    #E16541 19.666%, 
+    #E16541 10.333%, 
+    #F18F43 25.333%, 
+    #F18F43 50%, 
+    #8B9862 50%, 
+    #8B9862 66.666%, 
+    #476098 66.666%, 
+    #ccd0d8 83.333%, 
+    #A7489B 83.333%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; 
 }
 #rgb{
   font-size: 25px ;
@@ -30,7 +67,7 @@
   border-radius: 2rem;
   box-shadow : rgba(0,0,0,0.35) 0px 5px 15px;
   width : 28vw;
-  margin-left: 36vw;
+  margin-left: 35.5vw;
   
 }
 #TWO{
@@ -50,7 +87,7 @@
 }
 #new:hover{
   cursor: pointer;
-  transition:0.2s ease-in;
+  transition:0.3s ease-in;
   transform:scale(1.1) ;
   color: black;
 }
@@ -64,6 +101,7 @@
   justify-content: space-between;
   color: #79482cde;
   cursor: default;
+  margin-left: 3%;
 }
 #new1{
   display: flex;
@@ -80,7 +118,7 @@
 }
 .easy:hover{
   cursor: pointer;
-  transition:0.2s ease-in;
+  transition:0.3s ease-in;
   transform:scale(1.05) ;
   color: black;
 }

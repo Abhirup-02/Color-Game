@@ -22,10 +22,64 @@ body{
   justify-content: center;
   align-items: center;
   margin: 13vh 0vw 20vh;
-  font-size: 2.9rem;
+  font-size: 3.3rem;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
-  text-shadow: 15px 5px 8px #ffffff;
+  background: conic-gradient(
+    #CA4246 16.666%, 
+    #E16541 16.666%, 
+    #E16541 33.333%, 
+    #F18F43 33.333%, 
+    #F18F43 50%, 
+    #8B9862 50%, 
+    #8B9862 66.666%, 
+    #476098 66.666%, 
+    #476098 83.333%, 
+    #A7489B 83.333%);
+    background-size: 80%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; 
+    animation: rainbow-text-animation-rev 1s infinite alternate;
+    cursor: pointer;
 }
+#wel:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+  transform:scale(1.03);
+  transition:0.5s ease-in;
+}
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 17%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 37%;
+    background-position: -9em 1em;
+  }
+}
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 85%;
+    background-position: -9em 1em;
+  }
+  70% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+}
+
 .game{
   display: grid;
   grid-template-columns: auto;
