@@ -36,10 +36,7 @@ function setBoxes(x = 3) {
   function verify(color) {
     if (color == ans) {
       document.getElementById("try").innerHTML="You Won :)" ;
-      
-
-
-    } else {
+      } else {
       document.getElementById("try").innerHTML="You Lost :( " ; 
       
     }

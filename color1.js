@@ -8,14 +8,6 @@ document.getElementById("start").onclick = function(){
   }
   else{
      alert("Hello "+name+", Have fun !");
-
-     setTimeout(() => {
-        
-        //removes element from DOM
-        body.style.display = 'none';
-
-
-     }, 4000) ; //time in miliseconds
   }
   
 }

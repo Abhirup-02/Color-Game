@@ -13,7 +13,8 @@
 }
 #d1{
   color:white;
-  font-size: 2.79rem;
+  font-size: 2.72rem;
+  padding-top: 1px;
 }
 #d2{
   color:white;
@@ -36,19 +37,15 @@
   background-color: white;
   height: 45px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-}
-.list{
   display: flex;
-  color:red;
   justify-content: space-around;
+  align-items: center;
   font-size: 23px;
   font-weight: bold;
-  cursor: pointer;
 }
 #new{
   cursor: pointer;
-  margin-top: 9px;
+  color:red;
   transform: scale(1);
 }
 #new:hover{
@@ -65,17 +62,15 @@
 #try{
   display: flex;
   justify-content: space-between;
-  margin: 9px 0px 0px 40px ;
   color: #79482cde;
+  cursor: default;
 }
-
 #new1{
   display: flex;
   justify-content: space-between;
 }
 .easy{
   margin-right: 25px;
-  margin-top: 7px;
   color :#3D24FF ;
   font-size: 22px;
   font-weight: bold;
