@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./color.css">
+  <link rel="icon" href="/game.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -14,29 +15,25 @@
   <div id="ONE">
   <div id="d1">THE GREAT</div>
   <!-- RGB value will show here -->
-  <div id="d2">&nbsp;</div>
-  <div id="d3">COLOR GAME</div>
+  <div id="rgb">&nbsp;</div>
+  <div id="d2">COLOR GAME</div>
   </div>
 <div id="TWO">
   <div class="list">
     <div id="new" onclick="window.location.reload()">NEW GAME</div>
-    
-    <div id="try">&nbsp;&nbsp;&nbsp;</div>
-    
+    <!-- try again , you win , you lose will appear here -->
+    <div id="try">&nbsp;&nbsp;&nbsp;
+    </div>
     <div id="new1">
-    <div><input type="button" id="easy" value="EASY"></div>
-    <div><input type="button" id="hard" value="HARD"></div>
+    <button onclick="setState(3)"class="easy">EASY</button>
+    <button onclick="setState(6)"class="easy">HARD</button>
     </div>
   </div>
 </div>
-<div id="THREE">
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
 
+<div id="main">
+  
+  
 </div>
   
   
