@@ -18,12 +18,19 @@ body{
 }
 #wel{
   color: rgb(255, 255, 255);
-  margin: 4% 10%;
-  padding: 30px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13vh 0vw 20vh;
   font-size: 2.9rem;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 15px 5px 8px #ffffff;
-  
+}
+.game{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
 }
 #name{
   width: 280px;
@@ -32,27 +39,18 @@ body{
   border-radius: 1rem;
   border-color: transparent;
   font-size: 20px;
-  box-shadow: rgba(255, 255, 255 , 0.8) 10px 11px 11px ;
-  margin-left: 38.7vw;
-  margin-left: 38.7vw;
-  
-  
+  box-shadow: rgba(255, 255, 255 , 0.8) 5px 5px 6px ;
 }
 #start{
   width:200px;
-  margin-left:42vw;
-  margin-right :42vw;;
-  margin-top: 35px;
   font-size: 1.6rem;
   font-family: "Audiowide", sans-serif;
   color:#d0e612fd;
+  margin: 16%;
   border: none;
   outline: none;
   background: transparent ;
   transform:scale(1) ;
-  text-align: justify;
-
-  
 }
 #start:hover {
   stroke-opacity: 0.6;
@@ -64,17 +62,13 @@ body{
   transform:scale3d(1.1,0.8,0.6);
   color : rgba(0, 0, 0, 0.295);
 }
-
-
 #logo{
   color : rgb(63, 136, 126);
   font-size:60px ;
+  display: flex;
   justify-content: center;
-  margin:12vh 46vw;
-  
-  
+  align-items: center;
+  margin-top: 80px;
   
 }
-.hii{
-  margin-bottom: 0%;
-}
+
